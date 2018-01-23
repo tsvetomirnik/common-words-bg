@@ -76,6 +76,15 @@ const indicativePronouns = [
 
 // въпросителни
 const questionablePronouns = [
+    'кой', 'кого', 'кому', 'чий', 'какъв', // м.р.
+    'коя', 'кого', 'кому', 'тия', 'каква', // ж.р.
+    'кое', 'кого', 'кому', 'чуе', 'какво', // ср.р.
+    'кои', 'кого', 'кому', 'чии', 'какви', // мн.ч.
+    'колко'
+];
+
+// относителни
+const relativePronouns = [
     'който', 'когото', 'комуто', 'чийто', 'какъвто', // м.р.
     'която', 'която', 'комуто', 'тиято', 'каквато', // ж.р.
     'което', 'което', 'комуто', 'чуето', 'каквото', // ср.р.
@@ -115,6 +124,7 @@ const pronouns = [].concat(
     reversePronouns,
     indicativePronouns,
     questionablePronouns,
+    relativePronouns,
     notDistinctivePronouns,
     negativePronouns,
     summarizingPronouns
