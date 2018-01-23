@@ -1,4 +1,4 @@
-# common-words-bg
+# common-words-bg [![Build Status](https://travis-ci.org/tsvetomirnik/common-words-bg.svg?branch=master)](https://travis-ci.org/tsvetomirnik/common-words-bg)
 
 Collection of common Bulgarian words which doesn't bring meaning to classification algorithms
 
@@ -31,9 +31,9 @@ Contains the following grammatical types of words:
 ## Grammatical terminology
 
 - `Глагол` - Verb
+- `Спомагателен глагол` - Auxiliary verb
 - `Местоимение` - Pronoun
 - `Наречие` - Adverb
-- `Спомагателен глаголи` - Auxiliary verbs
 - `Предлог` - Preposition
 - `Съюз` - Conjunction
 - `Междуметие` - Interjection
