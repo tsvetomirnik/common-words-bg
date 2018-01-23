@@ -1,3 +1,5 @@
+'use-strict';
+
 const words = require('./words');
 
 const wordsString = '[' + (words.map(w => `'${w}'`).join(', ')) + ']';
