@@ -1,6 +1,6 @@
 {
   "name": "common-words-bg",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Collection of common Bulgarian words which doesn't bring meaning to classification algorithms",
   "author": {
     "name": "Tsvetomir Nikolov",
