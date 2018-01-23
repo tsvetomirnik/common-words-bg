@@ -23,10 +23,7 @@ const filteredWords = sentenseWords.filter(word => !commonBG.isCommon(word));
 // filteredWords: [ 'Недоумявам', 'дамата', 'прие', 'подозрение', 'подарък.' ]
 ```
 
-*Result:* Недоумявам ~защо~ дамата прие ~с~ ~такова~ подозрение ~моя~ подарък.
-
-
-## Coverage
+**Result:** Недоумявам ~защо~ дамата прие ~с такова~ подозрение ~моя~ подарък.
 
 
 ## API
