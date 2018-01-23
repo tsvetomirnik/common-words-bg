@@ -2,6 +2,7 @@
   "name": "common-words-bg",
   "version": "1.0.0",
   "description": "Collection of common Bulgarian words which doesn't bring meaning to classification algorithms",
+  "repository": "https://github.com/tsvetomirnik/common-words-bg",
   "author": {
     "name": "Tsvetomir Nikolov",
     "email": "cvetomir.nikolov@gmail.com",
