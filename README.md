@@ -10,6 +10,25 @@ npm install common-words-bg --save
 ```
 
 
+## Usage
+
+```js
+const commonBG = require('common-words-bg');
+
+const sentense = 'Недоумявам защо дамата прие с такова подозрение моя подарък.';
+const sentenseWords = sentense.split(' ');
+const filteredWords = sentenseWords.filter(word => !commonBG.isCommon(word));
+
+// sentenseWords: [ 'Недоумявам', 'защо', 'дамата', 'прие', 'с', 'такова', 'подозрение', 'моя', 'подарък.' ]
+// filteredWords: [ 'Недоумявам', 'дамата', 'прие', 'подозрение', 'подарък.' ]
+```
+
+*Result:* Недоумявам ~защо~ дамата прие ~с~ ~такова~ подозрение ~моя~ подарък.
+
+
+## Coverage
+
+
 ## API
 
 | Name       | Type                   | Description                                    |
