@@ -1,0 +1,37 @@
+{
+  "name": "common-words-bg",
+  "version": "0.0.0",
+  "description": "Collection of common Bulgarian words which doesn't bring meaning to classification algorithms",
+  "author": {
+    "name": "Tsvetomir Nikolov",
+    "email": "cvetomir.nikolov@gmail.com",
+    "url": "https://github.com/tsvetomirnik"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "start": "npm run build",
+    "build": "node ./src/build.js",
+    "test": "npm run build && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "common",
+    "meaning",
+    "words",
+    "phrases",
+    "bg",
+    "bulgarian",
+    "filter",
+    "classification",
+    "pronoun",
+    "adverb"
+  ],
+  "devDependencies": {
+    "ava": "^0.24.0"
+  }
+}
