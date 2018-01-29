@@ -42,6 +42,7 @@ Contains the following grammatical types of words:
 - Pronouns
 - Prepositions
 - Auxiliary verbs
+- Polite words
 
 
 ## Grammatical terminology
