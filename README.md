@@ -54,3 +54,7 @@ Contains the following grammatical types of words:
 - `Предлог` - Preposition
 - `Съюз` - Conjunction
 - `Междуметие` - Interjection
+
+## License
+
+[MIT](./license)
