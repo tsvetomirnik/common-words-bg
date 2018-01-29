@@ -142,12 +142,21 @@ const auxiliaryVerbs = [
     'ще', 'щях', 'щеше', 'щяха', 'щяхме', 'щяхте', 'щял', 'щяла', 'щяло', 'щели'
 ];
 
+const politeWords = [
+    'здравей', 'здравейте', 'привет',
+    'моля', 'благодаря',
+    'бих', 'желал',
+    'съжалявам', 'извинете', 'извинявай', 'извинявайте', 'простете',
+    'довиждане', 'дочуване', 'чао'
+];
+
 let allCommon = [].concat(
     adverbs,
     conjunctions,
     pronouns,
     prepositions,
-    auxiliaryVerbs
+    auxiliaryVerbs,
+    politeWords
 );
 
 // Remove duplicates
