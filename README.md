@@ -40,22 +40,26 @@ Contains the following grammatical types of words:
 - Particles
 - Adverbs
 - Conjunctions
+- Interjections
 - Pronouns
 - Prepositions
 - Auxiliary verbs
 - Polite words
+- Numerical words
+- Numerical adjectives
 
 
 ## Grammatical terminology
 
-- `Глагол` - Verb
-- `Спомагателен глагол` - Auxiliary verb
-- `Местоимение` - Pronoun
-- `Частици` - Particles
-- `Наречие` - Adverb
-- `Предлог` - Preposition
-- `Съюз` - Conjunction
-- `Междуметие` - Interjection
+- `Verb` - Глагол
+- `Auxiliary verb` - Спомагателен глагол
+- `Pronoun` - Местоимение
+- `Particle` - Частица
+- `Adverb` - Наречие
+- `Preposition` - Предлог
+- `Conjunction` - Съюз
+- `Interjection` - Междуметие
+
 
 ## License
 
