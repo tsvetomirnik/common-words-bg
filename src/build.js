@@ -2,7 +2,7 @@
 
 const words = require('./words');
 
-const wordsString = '[' + (words.map(w => `'${w}'`).join(', ')) + ']';
+const wordsString = '[' + (words.map(w => `'${w}'`).sort().join(', ')) + ']';
 
 const content = `
 (function () {
