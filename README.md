@@ -37,6 +37,7 @@ const filteredWords = sentenseWords.filter(word => !commonBG.isCommon(word));
 ## Words
 
 Contains the following grammatical types of words:
+- Particles
 - Adverbs
 - Conjunctions
 - Pronouns
@@ -50,6 +51,7 @@ Contains the following grammatical types of words:
 - `Глагол` - Verb
 - `Спомагателен глагол` - Auxiliary verb
 - `Местоимение` - Pronoun
+- `Частици` - Particles
 - `Наречие` - Adverb
 - `Предлог` - Preposition
 - `Съюз` - Conjunction
